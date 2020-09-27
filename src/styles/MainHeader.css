@@ -1,0 +1,26 @@
+.MainHeader {
+
+    margin: 10vw 0 10vw 0;
+
+}
+
+.MainHeader h1 {
+
+    font-size: 20vw;
+    font-weight: 600;
+
+}
+
+.MainHeader h2 {
+
+    font-size: 3.5vw;
+    font-weight: 400;
+
+}
+
+.MainHeader h3 {
+
+    font-size: 2.5vw;
+    font-weight: 400;
+
+}

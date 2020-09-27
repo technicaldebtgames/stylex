@@ -1,0 +1,13 @@
+/* Removing default styles */
+
+html {
+
+    font-family: sans-serif;
+
+}
+
+h1, h2, p {
+
+    margin: 0;
+
+}

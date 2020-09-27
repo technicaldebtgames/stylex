@@ -1,0 +1,40 @@
+.MainContent {
+
+    margin: 0 0 10vw 0;
+
+}
+
+.content-section {
+
+    margin: 10vw 0 10vw 0;
+
+}
+
+.content-display {
+
+    margin: 5vw 0 5vw 0;
+
+}
+
+.content-p {
+
+    margin: auto;
+    width: 75%;
+    font-size: 2vw;
+    text-align: justify;
+
+}
+
+.content-code {
+
+    display: block;
+    width: 75%;
+    padding: 2vw;
+    margin: 2vw auto 2vw auto;
+    font-size: 2vw;
+    text-align: left;
+
+    background-color: #EEEEEE;
+    color: #323232;
+
+}

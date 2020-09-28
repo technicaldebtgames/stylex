@@ -21,7 +21,7 @@ function MainContent() {
           <div className='content-display'>
             <h1 className='glitch'><span aria-hidden='true'>Glitch text</span>Glitch text<span aria-hidden='true'>Glitch text</span></h1>
           </div>
-          <p className='content-p'>You can adjust the animations (or omit or add to them) as you see fit. These styles should be browser-agnostic and should work on any modern browser. It's a lot of code, but the vast majority of it is just animation frames.</p>
+          <p className='content-p'>A glitched text utilizing rgb shadows and clipped spans.</p>
           <code className='content-code'>
             <b><i>html:</i></b><br/><br/>
             &#60;h1 className='glitch'&#62;<br/>&nbsp;&nbsp;&#60;span aria-hidden='true'&#62;Glitch text&#60;/span&#62;<br/>&nbsp;&nbsp;Glitch text<br/>&nbsp;&nbsp;&#60;span aria-hidden='true'&#62;Glitch text&#60;/span&#62;<br/>&#60;/h1&#62;<br/><br/>
@@ -201,7 +201,7 @@ function MainContent() {
                 <div className='vapor-sunset'></div>
               </div>
           </div>
-          <p className='content-p'>Vaporwave.</p>
+          <p className='content-p'>A vaporwave sunset featuring gradient transitions and slight bezier curve animation speed manipulation.</p>
           <code className='content-code'>
             <b><i>html:</i></b><br/><br/>
             &#60;div className='vapor-sunset-container'&#62;<br/>

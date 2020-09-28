@@ -217,7 +217,7 @@ function MainContent() {
             &nbsp;&nbsp;&nbsp;&nbsp;#DD3344 0%,<br/>
             &nbsp;&nbsp;&nbsp;&nbsp;#EE4466 15%,<br/>
             &nbsp;&nbsp;&nbsp;&nbsp;#442299 50%,<br/>
-            &nbsp;&nbsp;&nbsp;&nbsp;#2b1165 100%<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;#2B1165 100%<br/>
             &nbsp;&nbsp;);<br/>
             &#125;<br/><br/>
             .vapor-sunset &#123;<br/>
@@ -235,7 +235,7 @@ function MainContent() {
             &nbsp;&nbsp;height: 50%;<br/>
             &nbsp;&nbsp;background: linear-gradient(<br/>
             &nbsp;&nbsp;&nbsp;&nbsp;0deg,<br/>
-            &nbsp;&nbsp;&nbsp;&nbsp;#2b1165 0%,<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;#2B1165 0%,<br/>
             &nbsp;&nbsp;&nbsp;&nbsp;#441166 15%,<br/>
             &nbsp;&nbsp;&nbsp;&nbsp;#442299 51%,<br/>
             &nbsp;&nbsp;&nbsp;&nbsp;#EE4466 100%<br/>

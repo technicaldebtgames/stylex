@@ -321,7 +321,10 @@ function MainContent() {
                 </div>
             </div>
           </div>
-          <p className='content-p'>A cathode ray tube simulation with some liberties taken.</p>
+          <p className='content-p'>
+            A cathode ray tube simulation with some liberties taken.<br/><br/>
+            I'm not sure why, but in Chrome, selecting the text leaves some kind of after-effect. Haven't figured out why, yet. Firefox and Edge work as expected. Haven't tried Safari.
+          </p>
           <code className='content-code'>
             <b><i>html:</i></b><br/><br/>
             &#60;div className='crt-container'&#62;<br/>

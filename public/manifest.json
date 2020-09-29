@@ -1,6 +1,7 @@
 {
   "short_name": "STYLEX",
   "name": "STYLEX",
+  "categories": ["business","education","productivity"],
   "icons": [
     {
       "src": "favicon.ico",

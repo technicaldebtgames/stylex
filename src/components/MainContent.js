@@ -214,10 +214,10 @@ function MainContent() {
             &nbsp;&nbsp;width: 73%;<br/>
             &nbsp;&nbsp;background: linear-gradient(<br/>
             &nbsp;&nbsp;&nbsp;&nbsp;0deg,<br/>
-            &nbsp;&nbsp;&nbsp;&nbsp;#DD3344 0%,<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;#EE3355 0%,<br/>
             &nbsp;&nbsp;&nbsp;&nbsp;#EE4466 15%,<br/>
             &nbsp;&nbsp;&nbsp;&nbsp;#442299 50%,<br/>
-            &nbsp;&nbsp;&nbsp;&nbsp;#2B1165 100%<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;#221166 100%<br/>
             &nbsp;&nbsp;);<br/>
             &#125;<br/><br/>
             .vapor-sunset &#123;<br/>
@@ -235,7 +235,7 @@ function MainContent() {
             &nbsp;&nbsp;height: 50%;<br/>
             &nbsp;&nbsp;background: linear-gradient(<br/>
             &nbsp;&nbsp;&nbsp;&nbsp;0deg,<br/>
-            &nbsp;&nbsp;&nbsp;&nbsp;#2B1165 0%,<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;#221166 0%,<br/>
             &nbsp;&nbsp;&nbsp;&nbsp;#441166 15%,<br/>
             &nbsp;&nbsp;&nbsp;&nbsp;#442299 51%,<br/>
             &nbsp;&nbsp;&nbsp;&nbsp;#EE4466 100%<br/>
@@ -252,9 +252,10 @@ function MainContent() {
             &nbsp;&nbsp;background: linear-gradient(<br/>
             &nbsp;&nbsp;&nbsp;&nbsp;0deg,<br/>
             &nbsp;&nbsp;&nbsp;&nbsp;#EE3355 0%,<br/>
-            &nbsp;&nbsp;&nbsp;&nbsp;#EE3355 20%,<br/>
-            &nbsp;&nbsp;&nbsp;&nbsp;#442299 50%,<br/>
-            &nbsp;&nbsp;&nbsp;&nbsp;#442299 100%<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;#EE3355 12.5%,<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;#5533AA 30%,<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;#442299 49%,<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;#EE3355 100%<br/>
             &nbsp;&nbsp;);<br/>
             &nbsp;&nbsp;background-size: 40vw 40vw;<br/>
             &nbsp;&nbsp;background-position: bottom center;<br/>
@@ -280,7 +281,8 @@ function MainContent() {
             &nbsp;&nbsp;&nbsp;&nbsp;0 14vw, 100% 14vw, 100% 14.5vw, 0 14.5vw,<br/>
             &nbsp;&nbsp;&nbsp;&nbsp;0 16vw, 100% 16vw, 100% 16.5vw, 0 16.5vw,<br/>
             &nbsp;&nbsp;&nbsp;&nbsp;0 18vw, 100% 18vw, 100% 18.5vw, 0 18.5vw);<br/>
-            &nbsp;&nbsp;animation: vapor-sunset 25s cubic-bezier(0.25, 0.30, 0.20, 0.25) infinite;<br/>
+            &nbsp;&nbsp;animation: vapor-sunset 25s<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cubic-bezier(0.25, 0.30, 0.20, 0.25) infinite;<br/>
             &#125;<br/><br/>
             @keyframes vapor-sunset &#123;<br/>
             &nbsp;&nbsp;to &#123;<br/>
@@ -307,6 +309,143 @@ function MainContent() {
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0 38vw, 100% 38vw, 100% 38.5vw, 0 38.5vw,<br/>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0 40vw, 100% 40vw, 100% 40.5vw, 0 40.5vw<br/>
             &nbsp;&nbsp;&nbsp;&nbsp;);<br/>
+            &nbsp;&nbsp;&#125;<br/>
+            &#125;
+          </code>
+      </section>
+      <section className='content-section'>
+          <div className='content-display'>
+            <div className='crt-container'>
+                <div className='crt'>
+                    <p className='crt-p'>C:\ crt.css</p>
+                </div>
+            </div>
+          </div>
+          <p className='content-p'>A cathode ray tube simulation with some liberties taken.</p>
+          <code className='content-code'>
+            <b><i>html:</i></b><br/><br/>
+            &#60;div className='crt-container'&#62;<br/>
+            &nbsp;&nbsp;&#60;div className='crt'&#62;<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&#60;p className='crt-p'&#62;C:\ crt.css&#60;/p&#62;<br/>
+            &nbsp;&nbsp;&#60;/div&#62;<br/>
+            &#60;/div&#62;<br/><br/>
+            <b><i>css:</i></b><br/><br/>
+            .crt-container &#123;<br/>
+            &nbsp;&nbsp;margin: auto;<br/>
+            &nbsp;&nbsp;padding: 3vw;<br/>
+            &nbsp;&nbsp;width: 73%;<br/>
+            &nbsp;&nbsp;background-color: #451A1A;<br/>
+            &#125;<br/><br/>
+            .crt &#123;<br/>
+            &nbsp;&nbsp;position: relative;<br/>
+            &nbsp;&nbsp;width: 100%;<br/>
+            &nbsp;&nbsp;height: 100%;<br/>
+            &#125;<br/><br/>
+            .crt::before &#123;<br/>
+            &nbsp;&nbsp;content: "";<br/>
+            &nbsp;&nbsp;display: block;<br/>
+            &nbsp;&nbsp;position: absolute;<br/>
+            &nbsp;&nbsp;top: 0;<br/>
+            &nbsp;&nbsp;left: 0;<br/>
+            &nbsp;&nbsp;bottom: 0;<br/>
+            &nbsp;&nbsp;right: 0;<br/>
+            &nbsp;&nbsp;background: linear-gradient(rgba(50, 50, 50, 0) 50%,<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rgba(0, 0, 0, 0.1) 50%),<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;linear-gradient(90deg,<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rgba(255, 0, 0, 0.075),<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rgba(0, 255, 0, 0.025),<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rgba(0, 0, 255, 0.075));<br/>
+            &nbsp;&nbsp;background-size: 100% 2px, 1px 100%;<br/>
+            &nbsp;&nbsp;pointer-events: none;<br/>
+            &nbsp;&nbsp;border-radius: 2vw;<br/>
+            &#125;<br/><br/>
+            .crt::after &#123;<br/>
+            &nbsp;&nbsp;content: "";<br/>
+            &nbsp;&nbsp;display: block;<br/>
+            &nbsp;&nbsp;position: absolute;<br/>
+            &nbsp;&nbsp;top: 0;<br/>
+            &nbsp;&nbsp;left: 0;<br/>
+            &nbsp;&nbsp;bottom: 0;<br/>
+            &nbsp;&nbsp;right: 0;<br/>
+            &nbsp;&nbsp;background: rgba(50, 50, 50, 0.075);<br/>
+            &nbsp;&nbsp;pointer-events: none;<br/>
+            &nbsp;&nbsp;animation: screen 52ms infinite;<br/>
+            &nbsp;&nbsp;border-radius: 2vw;<br/>
+            &#125;<br/><br/>
+            .crt-p &#123;<br/>
+            &nbsp;&nbsp;padding: 2vw 0 20vw 2vw;<br/>
+            &nbsp;&nbsp;background-color: white;<br/>
+            &nbsp;&nbsp;text-align: left;<br/>
+            &nbsp;&nbsp;font-family: monospace;<br/>
+            &nbsp;&nbsp;font-size: 2vw;<br/>
+            &nbsp;&nbsp;border-radius: 2vw;<br/>
+            &nbsp;&nbsp;box-shadow: inset 0 0 10vw #555555,<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;inset 0 0 1.5vw #111111;<br/>
+            &nbsp;&nbsp;text-shadow: 0 0 0.2vw;<br/>
+            &#125;<br/><br/>
+            @keyframes screen &#123;<br/>
+            &nbsp;&nbsp;0% &#123;<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;opacity: 0.45;<br/>
+            &nbsp;&nbsp;&#125;<br/>
+            &nbsp;&nbsp;5% &#123;<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;opacity: 0.15;<br/>
+            &nbsp;&nbsp;&#125;<br/>
+            &nbsp;&nbsp;10% &#123;<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;opacity: 0.25;<br/>
+            &nbsp;&nbsp;&#125;<br/>
+            &nbsp;&nbsp;15% &#123;<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;opacity: 0.75;<br/>
+            &nbsp;&nbsp;&#125;<br/>
+            &nbsp;&nbsp;20% &#123;<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;opacity: 0.15;<br/>
+            &nbsp;&nbsp;&#125;<br/>
+            &nbsp;&nbsp;25% &#123;<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;opacity: 0.45;<br/>
+            &nbsp;&nbsp;&#125;<br/>
+            &nbsp;&nbsp;30% &#123;<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;opacity: 0.25;<br/>
+            &nbsp;&nbsp;&#125;<br/>
+            &nbsp;&nbsp;35% &#123;<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;opacity: 0.75;<br/>
+            &nbsp;&nbsp;&#125;<br/>
+            &nbsp;&nbsp;40% &#123;<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;opacity: 0.55;<br/>
+            &nbsp;&nbsp;&#125;<br/>
+            &nbsp;&nbsp;45% &#123;<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;opacity: 0.25;<br/>
+            &nbsp;&nbsp;&#125;<br/>
+            &nbsp;&nbsp;50% &#123;<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;opacity: 0.85;<br/>
+            &nbsp;&nbsp;&#125;<br/>
+            &nbsp;&nbsp;55% &#123;<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;opacity: 0.35;<br/>
+            &nbsp;&nbsp;&#125;<br/>
+            &nbsp;&nbsp;60% &#123;<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;opacity: 0.65;<br/>
+            &nbsp;&nbsp;&#125;<br/>
+            &nbsp;&nbsp;65% &#123;<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;opacity: 0.15;<br/>
+            &nbsp;&nbsp;&#125;<br/>
+            &nbsp;&nbsp;70% &#123;<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;opacity: 0.45;<br/>
+            &nbsp;&nbsp;&#125;<br/>
+            &nbsp;&nbsp;75% &#123;<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;opacity: 0.35;<br/>
+            &nbsp;&nbsp;&#125;<br/>
+            &nbsp;&nbsp;80% &#123;<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;opacity: 0.75;<br/>
+            &nbsp;&nbsp;&#125;<br/>
+            &nbsp;&nbsp;85% &#123;<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;opacity: 0.65;<br/>
+            &nbsp;&nbsp;&#125;<br/>
+            &nbsp;&nbsp;90% &#123;<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;opacity: 0.15;<br/>
+            &nbsp;&nbsp;&#125;<br/>
+            &nbsp;&nbsp;95% &#123;<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;opacity: 0.35;<br/>
+            &nbsp;&nbsp;&#125;<br/>
+            &nbsp;&nbsp;100% &#123;<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;opacity: 0.65;<br/>
             &nbsp;&nbsp;&#125;<br/>
             &#125;
           </code>

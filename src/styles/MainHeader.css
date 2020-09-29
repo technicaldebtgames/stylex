@@ -1,13 +1,19 @@
 .MainHeader {
 
-    margin: 10vw 0 10vw 0;
+    margin: 0 0 10vw 0;
 
 }
 
 .MainHeader h1 {
 
+    margin: 0 0 2.5vw 0;
+    padding: 10vw 0 0 0;
+
     font-size: 20vw;
     font-weight: 600;
+
+    color: white;
+    background-color: black;
 
 }
 

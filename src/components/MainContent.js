@@ -339,7 +339,7 @@ function MainContent() {
             .crt &#123;<br/>
             &nbsp;&nbsp;position: relative;<br/>
             &nbsp;&nbsp;width: 100%;<br/>
-            &nbsp;&nbsp;height: 100%;<br/>
+            &nbsp;&nbsp;height: 10vw;<br/>
             &#125;<br/><br/>
             .crt::before &#123;<br/>
             &nbsp;&nbsp;content: "";<br/>
@@ -355,7 +355,7 @@ function MainContent() {
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rgba(255, 0, 0, 0.075),<br/>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rgba(0, 255, 0, 0.025),<br/>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rgba(0, 0, 255, 0.075));<br/>
-            &nbsp;&nbsp;background-size: 100% 2px, 1px 100%;<br/>
+            &nbsp;&nbsp;background-size: 1% 2px, 1px 1%;<br/>
             &nbsp;&nbsp;pointer-events: none;<br/>
             &nbsp;&nbsp;border-radius: 2vw;<br/>
             &#125;<br/><br/>
@@ -373,7 +373,7 @@ function MainContent() {
             &nbsp;&nbsp;border-radius: 2vw;<br/>
             &#125;<br/><br/>
             .crt-p &#123;<br/>
-            &nbsp;&nbsp;padding: 2vw 0 20vw 2vw;<br/>
+            &nbsp;&nbsp;padding: 2vw 0 5.55vw 2vw;<br/>
             &nbsp;&nbsp;background-color: white;<br/>
             &nbsp;&nbsp;text-align: left;<br/>
             &nbsp;&nbsp;font-family: monospace;<br/>
@@ -381,6 +381,7 @@ function MainContent() {
             &nbsp;&nbsp;border-radius: 2vw;<br/>
             &nbsp;&nbsp;box-shadow: inset 0 0 10vw #555555,<br/>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;inset 0 0 1.5vw #111111;<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0 0 0.5vw #222222;<br/>
             &nbsp;&nbsp;text-shadow: 0 0 0.2vw;<br/>
             &#125;<br/><br/>
             @keyframes screen &#123;<br/>

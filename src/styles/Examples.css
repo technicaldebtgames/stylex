@@ -263,7 +263,7 @@
 .crt {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 10vw;
 }
 
 .crt::before {
@@ -280,7 +280,7 @@
                               rgba(255, 0, 0, 0.075), 
                               rgba(0, 255, 0, 0.025), 
                               rgba(0, 0, 255, 0.075));
-    background-size: 100% 2px, 1px 100%;
+    background-size: 1% 2px, 1px 1%;
     pointer-events: none;
     border-radius: 2vw;
 }
@@ -295,19 +295,20 @@
     right: 0;
     background: rgba(50, 50, 50, 0.075);
     pointer-events: none;
-    animation: screen 52ms infinite;
+    animation: screen 52ms linear infinite;
     border-radius: 2vw;
 }
 
 .crt-p {
-    padding: 2vw 0 20vw 2vw;
+    padding: 2vw 0 5.55vw 2vw;
     background-color: white;
     text-align: left;
     font-family: monospace;
     font-size: 2vw;
     border-radius: 2vw;
     box-shadow: inset 0 0 10vw #555555,
-                inset 0 0 1.5vw #111111;
+                inset 0 0 1.5vw #111111,
+                0 0 0.5vw #222222;
     text-shadow: 0 0 0.2vw;
 }
 
